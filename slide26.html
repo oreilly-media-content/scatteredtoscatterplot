@@ -1,13 +1,15 @@
 <section data-type="chapter">
+<h1>JavaScript arrays!</h1>
 
 <pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
-d3.selectAll(&ldquo;circle&rdquo;)
-&nbsp; .attr(&ldquo;r&rdquo;, function(d) {
-&nbsp;&nbsp;&nbsp;&nbsp; return d;
-&nbsp; });
-</pre>
+var dataset = [ 5, 10, 20, 15, 18 ];
 
+d3.select(&quot;svg&quot;).selectAll(&quot;circle&quot;)
+  .data(dataset)
+  .enter()
+  <span class="highlight">.append(&quot;circle&quot;);</span>
+</pre>
 <figure>
- <img id='c195' src='images/slide14.png'/>
+ <img id='c152' src='images/slide11.png'/>
 </figure>
 </section>

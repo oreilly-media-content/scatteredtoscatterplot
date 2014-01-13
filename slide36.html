@@ -1,6 +1,15 @@
 <section data-type="chapter">
-<h1>Mapping and projections</h1>
+<h1>Scale values</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var scale = d3.scale.linear()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .domain([200, 1000])
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .range([0, 500]);
+
+scale(600);&nbsp; // Returns 250
+</pre>
+
 <figure>
- <img id='c200' src='images/slide20.png'/>
+ <img id='c215' src='images/slide17.png'/>
 </figure>
 </section>
