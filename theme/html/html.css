@@ -2,6 +2,10 @@
   background-color: #FFE600;
 }
 
+h1.highlight {
+  padding: 5px;
+}
+
 .highlight2 {
   color: #20B2AA;
 }
