@@ -4,7 +4,7 @@
 <pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
 var dataset = [ 5, 10, 20, 15, 18 ];
 
-d3.<span class="highlight">select(&quot;svg&quot;)</span>.selectAll(&quot;circle&quot;)
+d3.select(&quot;svg&quot;).<span class="highlight">selectAll(&quot;circle&quot;)</span>
   .data(dataset)
   .enter()
   .append(&quot;circle&quot;);
