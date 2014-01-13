@@ -2,6 +2,7 @@
   "files": [
     "titlepage.html",
     "slide01.html",
+    "array_survey.html",
     "slide02.html",
     "slide03.html",
     "slide04.html",
@@ -41,8 +42,7 @@
     "slide34.html",
     "slide35.html",
     "slide36.html",
-    "slide37.html",
-    "slide38.html"
+    "slide37.html"
   ],
   "formats": {
     "pdf": {
