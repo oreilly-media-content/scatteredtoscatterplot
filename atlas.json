@@ -1,0 +1,35 @@
+{
+  "files": [
+    "titlepage.html",
+    "slide001.html",
+    "slide002.html",
+    "slide003.html",
+    "slide004.html",
+    "slide005.html",
+    "slide006.html",
+    "slide007.html"
+  ],
+  "formats": {
+    "pdf": {
+      "version": false,
+      "index": false,
+      "toc": false
+    },
+    "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false
+    },
+    "mobi": {
+      "index": false,
+      "toc": false
+    },
+    "html": {
+      "index": false,
+      "toc": false,
+      "consolidated": true
+    }
+  },
+  "theme": "oreillymedia/oreilly_presentation_theme",
+  "title": "scatteredtoscatterplot"
+}
