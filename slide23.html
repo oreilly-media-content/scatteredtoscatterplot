@@ -1,4 +1,15 @@
 <section data-type="chapter">
-<h1>This Is a Heading</h1>
-<p>This is some text.</p>
+<h1>// JavaScript arrays!</h1>
+
+<pre data-code-language="javascript" data-original-title="" data-type="programlisting" title="">
+var dataset = [ <span class="highlight2">5, 10, 20, 15, 18</span> ];
+
+d3.select(&quot;svg&quot;).selectAll(&quot;circle&quot;)
+  .data(dataset)
+  <span class="highlight">.enter()</span>
+  .append(&quot;circle&quot;);
+</pre>
+<figure>
+ <img id='c152' src='images/slide11.png'/>
+</figure>
 </section>
