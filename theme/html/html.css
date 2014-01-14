@@ -9,3 +9,67 @@ h1.highlight {
 .highlight2 {
   color: #20B2AA;
 }
+
+/* index page */
+
+.home {
+  font-family: sans-serif;
+}
+
+.home h1 {
+  font-size: 3em;
+  color: #990000;
+}
+
+.titlepage {
+  background-image: url('scatterplot.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.title {
+  max-height: 180px;
+  margin-top: 40px;
+}
+
+p.watchnow {
+  line-height: 26px;
+}
+
+a.watchnow {
+  font-size: 1.2em;
+  line-height: 26px;
+  vertical-align: top;
+}
+
+a.watchnow:before {
+  content: url('playbutton.png') " ";
+  vertical-align: top;
+}
+
+img.authorbio {
+  margin: 10px;
+}
+
+p.subtitle {
+  border-top: 2px solid #990000;
+  font-size: 1.2em;
+  padding-top: 8px;
+}
+
+.navbar {
+  background-color: #990000;
+}
+
+.logo.logo-white {
+  background-image: url("logo-white.svg"); 
+  height: 16px;
+  width: 85px;
+}
+
+@media (max-width: 767px) {
+
+  .titlepage {
+    background-image: none;
+  }
+}
